@@ -58,15 +58,15 @@ To run the program, simply clone the repository, and go through the written step
 Adjustments:
 Step 1: Tune the training algorithm by adjusting the size of the training dataset.
 Based on the higher recall for longer time period (1 year vs 1 month or 3 month), it seems that the 1 year time-period is better at predicting the 1 class than the −1 class.
-![Alt text](1.jpeg)
+![Alt text](1.jpg)
 
 Step 2: Tune the trading algorithm by adjusting the SMA input features
 Better recall for 1 class if the short window is longer (10 SMA vs 4 SMA)
-![Alt text](2.jpeg)
+![Alt text](2.jpg)
 
 Step 3: Choose the set of parameters that best improved the trading algorithm returns
 Changing to 10 SMA and 80 SMA for the short and long windows seems to recall class 1 better than 4 and 10 windows
-![Alt text](3.jpeg)
+![Alt text](3.jpg)
 
 
 ---
