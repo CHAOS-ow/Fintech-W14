@@ -74,7 +74,7 @@ Better recall for 1 class if the short window is longer (10 SMA vs 4 SMA)
 
 Step 3: Choose the set of parameters that best improved the trading algorithm returns
 
-Changing to 10 SMA and 80 SMA for the short and long windows seems to recall class 1 better than 4 and 10 windows
+Changing to 10 SMA and 50 SMA for the short and long windows seems to recall class 1 better than 4 and 10 windows
 
 ![Alt text](3.jpg)
 
